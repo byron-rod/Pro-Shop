@@ -1,0 +1,8 @@
+.active-step {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.address_text {
+  margin-right: 5px;
+}
