@@ -33,7 +33,7 @@ const CheckoutSteps = () => {
       <Nav.Item>
         <LinkContainer to="/placeorder">
           <Nav.Link className={path === "/placeorder" ? "active-step" : ""}>
-            Place Order
+            Confirm Order
           </Nav.Link>
         </LinkContainer>
       </Nav.Item>

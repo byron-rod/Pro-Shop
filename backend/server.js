@@ -30,7 +30,7 @@ app.use("/api/orders", orderRoutes);
 app.use("/api/recurrente", recurrenteRoutes);
 
 app.get("/api/config/paypal", (req, res) =>
-  res.send(process.env.PAYPAL_CLIENT_ID)
+  res.send({ clientId: process.env.PAYPAL_CLIENT_ID })
 );
 
 app.get("");

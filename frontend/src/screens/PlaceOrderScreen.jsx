@@ -144,7 +144,7 @@ const PlaceOrderScreen = () => {
                   disabled={cart.cartItems === 0}
                   onClick={placeOrderHandler}
                 >
-                  Place Order
+                  Proceed to Payment
                 </Button>
 
                 {isLoading && <Loader />}
