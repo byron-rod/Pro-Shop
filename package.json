@@ -15,6 +15,7 @@
   "author": "Byron Rodriguez",
   "license": "MIT",
   "dependencies": {
+    "axios": "^1.7.2",
     "bcryptjs": "^2.4.3",
     "color": "^4.2.3",
     "colors": "^1.4.0",
@@ -23,7 +24,8 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.7.0",
-    "mongoose": "^8.4.0"
+    "mongoose": "^8.4.0",
+    "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
