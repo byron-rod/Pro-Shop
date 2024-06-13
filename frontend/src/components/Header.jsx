@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Navbar, Nav, Container, Badge, NavDropdown } from "react-bootstrap";
+import SearchBox from "../screens/SearchBox";
 import { FaShoppingCart, FaUser } from "react-icons/fa";
 import { LinkContainer } from "react-router-bootstrap";
 import { useSelector, useDispatch } from "react-redux";
@@ -39,6 +40,7 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
+              <SearchBox />
               <LinkContainer to="/cart">
                 <Nav.Link>
                   <FaShoppingCart /> Cart
